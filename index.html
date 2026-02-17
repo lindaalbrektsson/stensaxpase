@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Sten, sax, påse!</title>
+</head>
+
+<body>
+    <main>
+        <h1>Sten • Sax • Påse</h1>
+
+        <section class="choices">
+            <button class="choice" id="sten" aria-label="Välj sten">
+                <img src="img/sten.png" alt="Sten" />
+            </button>
+
+            <button class="choice" id="sax" aria-label="Välj sax">
+                <img src="img/sax.png" alt="Sax" />
+            </button>
+
+            <button class="choice" id="påse" aria-label="Välj påse">
+                <img src="img/pase.png" alt="Påse" />
+            </button>
+        </section>
+
+        <section class="status">
+            <p id="playerText">Du valde: —</p>
+            <p id="computerText">Datorn valde: —</p>
+            <p id="resultText">Resultat: —</p>
+        </section>
+
+        <section class="score">
+            <p id="scoreText">Poäng: Du 0 – 0 Datorn</p>
+            <p id="matchText">Bäst av 3 (först till 2 vinster)</p>
+            <button id="resetBtn" class="reset">Reset</button>
+        </section>
+    </main>
+</body>
+
+</html>
